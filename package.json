@@ -1,0 +1,35 @@
+{
+  "name": "kanji-api",
+  "version": "1.0.0",
+  "description": "An api for kanji characters grade level 1 - 6.",
+  "main": "kanjiApi.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "kanji",
+    "api"
+  ],
+  "author": "Leon Watson",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "jest": "^23.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlw0052/kanji-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vlw0052/kanji-api/issues"
+  },
+  "homepage": "https://github.com/vlw0052/kanji-api#readme"
+}
